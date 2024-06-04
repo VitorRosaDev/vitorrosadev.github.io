@@ -41,10 +41,3 @@ a::before {
 #button:hover {
     transform: scale(1.04);
 }
-
-h2 {
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 30px; 
-    color: #E8F1F2;
-    text-shadow: 4px 4px 0px #001A23; 
-}
