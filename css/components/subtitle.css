@@ -4,3 +4,10 @@
     color: #E8F1F2;
     text-shadow: 4px 4px 0px #001A23; 
 }
+
+.subtitle.-second {
+    color: #000;
+    text-shadow: none;
+    text-align: center;
+    margin-top: 150px;
+}
