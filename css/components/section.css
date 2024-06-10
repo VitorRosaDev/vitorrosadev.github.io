@@ -9,3 +9,11 @@
 .section .main-title {
     margin-bottom: 60px;
 }
+
+.section.-bgBlack {
+    background-color:#001A23;
+}
+
+.section.-bdFirst {
+    border-color: #7A9E7E;
+}
