@@ -1,11 +1,11 @@
-.subtitle {
+.main-subtitle {
     font-family: "Press Start 2P", sans-serif;
     font-size: 30px; 
     color: #E8F1F2;
     text-shadow: 4px 4px 0px #001A23; 
 }
 
-.subtitle.-second {
+.main-subtitle.-second {
     color: #000;
     text-shadow: none;
     text-align: center;
