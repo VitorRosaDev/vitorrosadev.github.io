@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     box-sizing: border-box;
     background-image: url(../../assets/img/Banner\ Curriculo.png);
     background-repeat: no-repeat;
@@ -8,18 +8,18 @@
     padding-top: 115px;
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
     margin-left: 90px;
     display:flex;
     flex-direction: column;
     width: 630px;
 }
 
-.banner .box {
+.main-banner .box {
     margin-bottom: 40px;
 }
 
-.banner .navigation {
+.main-banner .navigation {
     display: flex;
     justify-content: space-evenly;
 }
