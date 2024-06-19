@@ -6,4 +6,10 @@
     width: 280px;
     height: 280px;
     box-shadow: 10px 10px 0 #828282;
+    transition: transform 140ms cubic-bezier(.5,-0.1,.85,3.27);
+}
+
+
+.card-project:hover {
+    transform: scale(1.04);
 }

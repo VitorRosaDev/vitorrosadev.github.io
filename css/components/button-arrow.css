@@ -7,6 +7,10 @@
     transition: transform 140ms cubic-bezier(.5,-0.1,.85,3.27);
 }
 
+.button-arrow  .content{
+    display: none;
+}
+
 .button-arrow:hover {
     transform: scale(1.04);
 }
