@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="css/components/main-description.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/wrapper-about.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
 </head>
 
 <body>
@@ -184,10 +186,18 @@
         </div>
 
     </section>
-    <section class="main-section -bgBlackSecond">
-        <h2 class="main-title -second">Contato</h2>
+    <form>
+        <label class="main-label" for="name">Nome</label>
+        <input class="main-input" id="name" type="text">
 
-    </section>
+        <label class="main-label" for="email">Email</label>
+        <input class="main-input" id="email" type="email">
+
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea class="main-input" id="message"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 
 </html>
