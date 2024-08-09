@@ -6,6 +6,19 @@
     padding-bottom: 30px;
 }
 .main-footer .action {
-    margin-right: 20px;
-    margin-left: 20px;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.main-footer .footer .infos{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer p {
+    display: flex;
+    color: #fff;
+    margin: 0 auto 5 auto;
+    justify-content: center;
 }
