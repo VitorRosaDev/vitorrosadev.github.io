@@ -1,0 +1,11 @@
+@media (max-width: 480px) {
+    #icone {
+        height: 40px;
+        width: 40px;
+    }
+
+    #action {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+}
