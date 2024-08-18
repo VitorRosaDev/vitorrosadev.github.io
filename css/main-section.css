@@ -1,0 +1,21 @@
+.main-section {
+    background-color: #7A9E7E;
+    padding-top: 5vh;
+    border-bottom: 10px solid #31493C;
+}
+
+.main-section .main-title {
+    margin-bottom: 40px;
+}
+
+.main-section.-projetos {
+    background-color:#001A23;
+    padding-bottom: 5vh;
+    border-bottom: 10px solid #7A9E7E;
+}
+
+.main-section.-sobre {
+    background-color: #31493C;
+    padding-bottom: 5vh;
+    border-bottom: 10px solid #001A23;
+}

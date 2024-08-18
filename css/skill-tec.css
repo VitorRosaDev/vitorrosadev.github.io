@@ -1,0 +1,6 @@
+.skill-tec {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5vh;
+}

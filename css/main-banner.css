@@ -1,0 +1,52 @@
+@media (min-width: 901px) {
+    .main-box-1 {
+        display: none;
+    }
+
+    .navigation-1 {
+        display: none;
+    }
+}
+
+.main-banner {
+    border-bottom: 10px solid;
+}
+
+main>#img {
+    background-image: url('../img/banner-curriculo.jpg');
+    background-size: cover;
+    background-position: top right;
+    height: 450px;
+
+}
+
+.main-banner .wrapper {
+    display: inline-block;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-left: 3%;
+    width: 60%;
+    height: 25%;
+}
+
+.main-banner .main-box {
+    margin-bottom: 2vh;
+}
+
+.main-box {
+    background-color: #3a4042ce;
+    box-shadow: 5px 5px 0px #000;
+    text-align: center;
+    padding: 42px;
+}
+
+.main-box .main-title {
+    font-size: 3.3vw;
+    margin-bottom: 1vh;
+    max-height: 570px;
+}
+
+.main-box .main-subtitle {
+    font-size: 2.3vw;
+    margin-bottom: 1vh;
+}

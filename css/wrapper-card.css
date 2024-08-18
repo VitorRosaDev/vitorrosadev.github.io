@@ -1,0 +1,28 @@
+.wrapper-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.card-project {
+    margin: 3vh 3vw;
+    transition: transform 140ms cubic-bezier(.5, -0.1, .85, 3.27);
+}
+
+.logo-project {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 0 #828282;
+}
+
+.card-project:hover {
+    transform: scale(1.04);
+}
+
+.card-project .title {
+    text-align: center;
+    padding: 5vh 0 5vh 0;
+    font-family: "Press Start 2P", sans-serif;
+    color: #fff;
+}

@@ -1,0 +1,8 @@
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #a5b0a6, #7A9E7E);
+}

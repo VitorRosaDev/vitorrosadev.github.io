@@ -1,11 +1,81 @@
-@media (max-width: 480px) {
-    #icone {
-        height: 40px;
-        width: 40px;
+@media (max-width: 900px) {
+    
+    #wrapper {
+        display: none;
+    }
+    .main-banner .main-box {
+        display: none;
     }
 
-    #action {
+    .navigation {
+        display: none;
+    }
+
+    .main-banner {
+        padding: 15px 33vw 15px 15px;
+    }
+
+    .main-box-1 {
+        padding: 10px;
+        background-color: #3a4042ce;
+        box-shadow: 5px 5px 0px #000;
+    }
+
+    .main-title-1 {
+        font-family: "Press Start 2P", sans-serif;
+        color: #7A9E7E;
+        text-shadow: 4px 4px 0px #001A23;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .main-subtitle-1 {
+        font-family: "Press Start 2P", sans-serif;
+        font-size: 20px;
+        color: #E8F1F2;
+        text-shadow: 4px 4px 0px #001A23;
+        text-align: center;
+    }
+
+    .navigation-1 {
+        display: inline-block;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:620px){
+    .main-title.-second {
         font-size: 10px;
-        margin-right: 0px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .main-action {
+        font-size: 3vw;
+    }
+
+    .main-title-1 {
+        font-size: 20px;
+    }
+
+    .main-subtitle-1 {
+        font-size: 15px;
+    }
+
+    .wrapper-card {
+        display: inline-block;
+    }
+}
+
+@media (max-width:360px) {
+
+    .main-title-1 {
+        font-size: 15px;
+    }
+
+    .main-subtitle-1 {
+        font-size: 12px;
     }
 }

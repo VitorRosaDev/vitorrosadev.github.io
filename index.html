@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <title>Vitor Rosa - Developer</title>
-    <meta name="description" content="Vitor Rosa - Programador Front-End"/>
+    <meta name="description" content="Vitor Rosa - Programador Front-End" />
 
     <meta property="og:title" content="Vitor Rosa - Programador Front-End">
     <meta property="og:site_name" content="Vitor Rosa - Developer">
@@ -21,223 +21,260 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/components/main-header.css">
-    <link rel="stylesheet" href="css/components/main-banner.css">
-    <link rel="stylesheet" href="css/components/main-title.css">
-    <link rel="stylesheet" href="css/components/main-subtitle.css">
-    <link rel="stylesheet" href="css/components/main-box.css">
-    <link rel="stylesheet" href="css/components/main-button.css">
-    <link rel="stylesheet" href="css/components/main-action.css">
-    <link rel="stylesheet" href="css/components/main-section.css">
-    <link rel="stylesheet" href="css/components/skill-tec.css">
-    <link rel="stylesheet" href="css/components/wrapper-skill.css">
-    <link rel="stylesheet" href="css/components/progress-bar.css">
-    <link rel="stylesheet" href="css/components/card-project.css">
-    <link rel="stylesheet" href="css/components/wrapper-card.css">
-    <link rel="stylesheet" href="css/components/main-description.css">
-    <link rel="stylesheet" href="css/components/button-arrow.css">
-    <link rel="stylesheet" href="css/components/wrapper-about.css">
-    <link rel="stylesheet" href="css/components/main-label.css">
-    <link rel="stylesheet" href="css/components/main-input.css">
-    <link rel="stylesheet" href="css/components/main-form.css">
-    <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-header.css">
+    <link rel="stylesheet" href="css/main-button.css">
+    <link rel="stylesheet" href="css/main-banner.css">
+    <link rel="stylesheet" href="css/main-title.css">
+    <link rel="stylesheet" href="css/main-subtitle.css">
+    <link rel="stylesheet" href="css/main-box.css">
+    <link rel="stylesheet" href="css/main-section.css">
+    <link rel="stylesheet" href="css/skill-tec.css">
+    <link rel="stylesheet" href="css/wrapper-skill.css">
+    <link rel="stylesheet" href="css/progress-bar.css">
+    <link rel="stylesheet" href="css/card-project.css">
+    <link rel="stylesheet" href="css/wrapper-card.css">
+    <link rel="stylesheet" href="css/main-description.css">
+    <link rel="stylesheet" href="css/button-arrow.css">
+    <link rel="stylesheet" href="css/wrapper-about.css">
+    <link rel="stylesheet" href="css/main-label.css">
+    <link rel="stylesheet" href="css/main-input.css">
+    <link rel="stylesheet" href="css/main-form.css">
+    <link rel="stylesheet" href="css/main-footer.css">
 </head>
 
 <body>
-    <header class="main-header">
-        <img class="favico" id="icone" src="assets/img/Logo Curriculo.png" alt="Logo">
-
-        <nav class="nav" id="menu">
-            <a class="main-action" id="action" href="#section1" lang="en">Skills</a>
-            <a class="main-action" id="action" href="#section2">Projetos</a>
-            <a class="main-action" id="action" href="#section3">Sobre</a>
-            <a class="main-action" id="action" href="#section4">Contatos</a>
-            <a class="main-button" id="button1" href="./curriculo/Curriculo Vitor Rosa.pdf" download="Curriculo Vitor Rosa.pdf"
-                type="application/pdf" lang="en">Download CV</a>
-        </nav>
+    <header>
+        <div class="container">
+            <div class="w50-1">
+                <img class="logo" src="assets/img/Logo Curriculo.png" alt="Logo">
+            </div>
+            <div class="w50-2">
+                <nav class="nav">
+                    <a class="main-action" href="#section1" lang="en">{Skills}</a>
+                    <a class="main-action" href="#section2">{Projetos}</a>
+                    <a class="main-action" href="#section3">{Sobre}</a>
+                    <a class="main-action" href="#section4">{Contato}</a>
+                </nav>
+            </div>
+        </div>
     </header>
-
-    <section class="main-banner">
-        <div class="wrapper">
-            <div class="main-box">
-                <h1 class="main-title">Vitor Rosa</h1>
-                <h2 class="main-subtitle">Developer</h2>
+    <main>
+        <section class="main-banner" id="img">
+            
+            <div class="main-box-1">
+                <h1 class="main-title-1">Vitor Rosa</h1>
+                <h2 class="main-subtitle-1">Developer</h2>
             </div>
-            <div class="navigation">
-                <a class="main-button" href="./curriculo/Curriculo Vitor Rosa.pdf" download="Curriculo Vitor Rosa.pdf"
-                type="application/pdf" lang="en">Download CV</a>
-                <a class="main-button" href="#section4">Contatos</a>
+            <div class="navigation-1">
+                <a class="main-button-1" href="./curriculo/Curriculo Vitor Rosa.pdf"
+                    download="Curriculo Vitor Rosa.pdf" type="application/pdf" lang="en">Download CV</a>
             </div>
-        </div>
-    </section>
+            <div class="wrapper" id="wrapper">
+                <div class="main-box">
+                    <h1 class="main-title">Vitor Rosa</h1>
+                    <h2 class="main-subtitle">Developer</h2>
+                </div>
+                <div class="navigation">
+                    <a class="main-button" href="./curriculo/Curriculo Vitor Rosa.pdf"
+                        download="Curriculo Vitor Rosa.pdf" type="application/pdf" lang="en">Download CV</a>
+                </div>
 
-    <section class="main-section" id="section1">
-        <h2 class="main-title -second">Skills</h2>
+            </div>
+        </section>
 
-        <div class="wrapper-skill">
-            <article class="skill-tec">
-                <img class="icon" src="./img/ico_html5.png" alt="Logo do HTML5 em pixelart">
-                <div class="right">
-                    <h3 class="title">HTML</h3>
-                    <progress class="progress-bar" max="100" value="30">
-                        30%
-                    </progress>
-                </div>
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="./img/ico_react.png" alt="Logo do React em pixelart">
-                <div class="right">
-                    <h3 class="title">React</h3>
-                    <progress class="progress-bar" max="100" value="5">
-                        5%
-                    </progress>
-                </div>
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="./img/ico_css3.png" alt="Logo do CSS3 em pixelart">
-                <div class="right">
-                    <h3 class="title">CSS</h3>
-                    <progress class="progress-bar" max="100" value="25">
-                        25%
-                    </progress>
-                </div>
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="./img/ico_nodejs.png" alt="Logo do NodeJS em pixelart">
-                <div class="right">
-                    <h3 class="title">NodeJS</h3>
-                    <progress class="progress-bar" max="100" value="5">
-                        5%
-                    </progress>
-                </div>
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="./img/ico_js.png" alt="Logo do JavaScript em pixelart">
-                <div class="right">
-                    <h3 class="title">JavaScript</h3>
-                    <progress class="progress-bar" max="100" value="12">
-                        12%
-                    </progress>
-                </div>
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="./img/ico_tdd.png" alt="Logo do TDD em pixelart">
-                <div class="right">
-                    <h3 class="title">TDD</h3>
-                    <progress class="progress-bar" max="100" value="5">
-                        5%
-                    </progress>
-                </div>
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="./img/ico_java.png" alt="Logo do Java em pixelart">
-                <div class="right">
-                    <h3 class="title">Java</h3>
-                    <progress class="progress-bar" max="100" value="30">
-                        30%
-                    </progress>
-                </div>
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="./img/ico_pithon.png" alt="Logo do Python em pixelart">
-                <div class="right">
-                    <h3 class="title">Python</h3>
-                    <progress class="progress-bar" max="100" value="18">
-                        18%
-                    </progress>
-                </div>
-            </article>
-        </div>
-    </section>
-    <section class="main-section -bgBlack -bdFirst" id="section2">
-        <h2 class="main-title -second">Projetos</h2>
+        <section class="main-section" id="section1">
+            <h2 class="main-title -second">Skills</h2>
 
-        <div class="wrapper-card">
-            <a href="https://github.com/VitorRosaDev" target="_blank">
+            <div class="wrapper-skill">
+
+                <article class="skill-tec">
+                    <img class="icon" src="./img/ico_html5.png" alt="Logo do HTML5 em pixelart">
+                    <div class="right">
+                        <h3 class="title">HTML</h3>
+                        <progress class="progress-bar" max="100" value="60">
+                            60%
+                        </progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="./img/ico_react.png" alt="Logo do React em pixelart">
+                    <div class="right">
+                        <h3 class="title">React</h3>
+                        <progress class="progress-bar" max="100" value="5">
+                            5%
+                        </progress>
+                    </div>
+                </article>
+
+                <article class="skill-tec">
+                    <img class="icon" src="./img/ico_css3.png" alt="Logo do CSS3 em pixelart">
+                    <div class="right">
+                        <h3 class="title">CSS</h3>
+                        <progress class="progress-bar" max="100" value="50">
+                            50%
+                        </progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="./img/ico_nodejs.png" alt="Logo do NodeJS em pixelart">
+                    <div class="right">
+                        <h3 class="title">NodeJS</h3>
+                        <progress class="progress-bar" max="100" value="5">
+                            5%
+                        </progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="./img/ico_js.png" alt="Logo do JavaScript em pixelart">
+                    <div class="right">
+                        <h3 class="title">JavaScript</h3>
+                        <progress class="progress-bar" max="100" value="12">
+                            12%
+                        </progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="./img/ico_figma.png" alt="Logo do Figma em pixelart">
+                    <div class="right">
+                        <h3 class="title">Figma</h3>
+                        <progress class="progress-bar" max="100" value="25">
+                            25%
+                        </progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="./img/ico_java.png" alt="Logo do Java em pixelart">
+                    <div class="right">
+                        <h3 class="title">Java</h3>
+                        <progress class="progress-bar" max="100" value="30">
+                            30%
+                        </progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="./img/ico_github.png" alt="Logo do Github em pixelart">
+                    <div class="right">
+                        <h3 class="title">Git/Github</h3>
+                        <progress class="progress-bar" max="100" value="35">
+                            35%
+                        </progress>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="main-section -projetos" id="section2">
+            <h2 class="main-title -second">Projetos</h2>
+
+            <div class="wrapper-card">
                 <figure class="card-project">
-                    <img class="logo" src="img/logo-github.png" alt="Logo github">
+                    <a href="https://github.com/VitorRosaDev" target="_blank">
+                        <img class="logo-project" src="img/logo-github.png" alt="Logo github">
+                        <figcaption class="title">Repositório</figcaption>
+                    </a>
                 </figure>
-            </a>
-            <a href="https://vitorrosadev.github.io/x-devs-project" target="_blank">
                 <figure class="card-project">
-                    <img class="logo" src="img/logo-xdevs.png" alt="Logo x-devs project">
+                    <a href="https://vitorrosadev.github.io/x-devs-project" target="_blank">
+                        <img class="logo-project" src="img/logo-xdevs.png" alt="Logo x-devs project">
+                        <figcaption class="title">X-Devs</figcaption>
+                    </a>
                 </figure>
-            </a>
-            <a href="https://vitorrosadev.github.io/exercicio-android" target="_blank">
                 <figure class="card-project">
-                    <img class="logo" src="img/logo-android.png" alt="Logo android">
+                    <a href="https://vitorrosadev.github.io/exercicio-android" target="_blank">
+                        <img class="logo-project" src="img/logo-android.png" alt="Logo android">
+                        <figcaption class="title">Android</figcaption>
+                    </a>
                 </figure>
-            </a>
-            <a href="https://vitorrosadev.github.io/casa-do-dragao" target="_blank">
                 <figure class="card-project">
-                    <img class="logo" src="img/logo-dragao.png" alt="Logo dragao">
+                    <a href="https://vitorrosadev.github.io/casa-do-dragao" target="_blank">
+                        <img class="logo-project" src="img/logo-dragao.png" alt="Logo dragao">
+                        <figcaption class="title">Dragões</figcaption>
+                    </a>
                 </figure>
-            </a>
-            <a href="https://vitorrosadev.github.io">
                 <figure class="card-project">
-                    <img class="logo" src="img/logo-portfolio.png" alt="Logo portfolio">
+                    <a href="https://vitorrosadev.github.io/projeto-cordel" target="_blank">
+                        <img class="logo-project" src="img/logo-leitura.png" alt="Logo dragao">
+                        <figcaption class="title">Cordel</figcaption>
+                    </a>
                 </figure>
-            </a>
-        </div>
-
-    </section>
-    <section class="main-section -bgSecond -bdBlack" id="section3">
-        <h2 class="main-title -second">Sobre</h2>
-
-
-        <div class="wrapper-about">
-            <div>
-                <button class="button-arrow"><span class="content">Voltar</span>
-                    <img src="./img/Seta-esquerda.png">
-                </button>
+                <figure class="card-project">
+                    <a href="https://vitorrosadev.github.io">
+                        <img class="logo-project" src="img/logo-portfolio.png" alt="Logo portfolio">
+                        <figcaption class="title">Portfólio</figcaption>
+                    </a>
+                </figure>
             </div>
 
-            <p class="main-description">
-                Olá, me chamo Vitor, sou estudante de Análise e Desenvolvimento de Sistemas na Unisinos e apaixonado por
-                programação. Além do curso universitário onde acumulo experiência em projetos acadêmicos utilizando Java
-                e Python, também dedico meu tempo ao o aprendizado de desenvolvimento frontend com JavaScript, CSS e
-                HTML nas plataformas Trilha.Info e Danki Code.
-                Minhas maiores motivações profissionais são a sensação de solucionar problemas com o meu trabalho e o
-                constante contato com o aprendizado de novas tecnologias.
-                Se você procura um aprendiz com vivência de mercado em grandes empresas, dedicado e entusiasmado, vamos
-                nos conectar e explorar como podemos colaborar para alcançar grandes resultados juntos!
-            </p>
-            <div>
-                <button class="button-arrow"><span class="content">Avançar</span>
-                    <img src="./img/Seta-direita.png">
-                </button>
+        </section>
+
+        <section class="main-section -sobre" id="section3">
+            <h2 class="main-title -second">Sobre</h2>
+
+
+            <div class="wrapper-about">
+                <!--
+                <div>
+                    <button class="button-arrow"><span class="content">Voltar</span>
+                        <img src="./img/Seta-esquerda.png">
+                    </button>
+                </div>
+            -->
+                <p class="main-description">
+                    Olá, me chamo Vitor, estudante de desenvolvimento <strong>Front-End</strong> tenho habilidades
+                    com designs para a web com <strong>HTML5</strong>, <strong>CSS3</strong> e
+                    <strong>Javascript</strong>, tembém sou estudante de Análise e Desenvolvimento de Sistemas na
+                    Unisinos, onde já tive experiência em projetos acadêmicos utilizando orientação a objetos em
+                    <strong>Java</strong> e <strong>Python</strong>.<br>
+                    Com vivência de mercado em grandes empresas, adquiri habilidades interpessoais e experiência
+                    para lidar com os mais diversos desafios e alcançar grandes resultados. Hoje busco migrar de
+                    carreira perseguindo minha paixão pela tecnologia!
+                    Se você procura um aprendiz dedicado e entusiasmado, vamos nos conectar e explorar como podemos
+                    colaborar para alcançar grandes resultados juntos!
+                </p>
+                <!--
+                <div>
+                    <button class="button-arrow"><span class="content">Avançar</span>
+                        <img src="./img/Seta-direita.png">
+                    </button>
+                </div>
             </div>
-        </div>
+-->
+        </section>
+        <form class="main-form" id="section4">
+            <legend class="main-title -second">Contato</legend>
+            <label class="main-label" for="name">Nome</label>
+            <input class="main-input" id="name" type="text">
 
-    </section>
-    <form class="main-form" id="section4">
-        <legend class="main-title -second">Contatos</legend>
-        <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="name" type="text">
+            <label class="main-label" for="email">Email</label>
+            <input class="main-input" id="email" type="email">
 
-        <label class="main-label" for="email">Email</label>
-        <input class="main-input" id="email" type="email">
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea class="main-input -textarea" id="message"></textarea>
 
-        <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -textarea" id="message"></textarea>
+            <button class="main-button -full" type="submit">Enviar</button>
+        </form>
 
-        <button class="main-button -full" type="submit">Enviar</button>
-    </form>
+    </main>
     <footer class="main-footer">
+        <!--
             <div class="footer infos">
                 <p class="construction">Em construção ... 🛠️</p>
                 <div>
-                    <a class="action" href="https://www.linkedin.com/in/vitorrosadev" target="_blank">
-                        <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-                            target="_blank">
-                    </a>
-                    <a class="action" href="mailto:vitor.rosa.dev@outlook.com" target="_blank">
-                        <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"
-                            target="_blank">
-                    </a>
-                </div>
-            </div>
+                    -->
+        <a class="action" href="https://www.linkedin.com/in/vitorrosadev" target="_blank">
+            <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                target="_blank">
+        </a>
+        <a class="action" href="mailto:vitor.rosa.dev@outlook.com" target="_blank">
+            <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"
+                target="_blank">
+        </a>
+        </div>
+        </div>
     </footer>
 </body>
+
 
 </html>
