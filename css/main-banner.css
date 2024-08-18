@@ -6,6 +6,10 @@
     .navigation-1 {
         display: none;
     }
+
+    .main-button-1 {
+        display: none;
+    }
 }
 
 .main-banner {
@@ -49,4 +53,33 @@ main>#img {
 .main-box .main-subtitle {
     font-size: 2.3vw;
     margin-bottom: 1vh;
+}
+
+
+.main-box-1 {
+    padding: 10px;
+    background-color: #3a4042ce;
+    box-shadow: 5px 5px 0px #000;
+}
+
+.main-title-1 {
+    font-family: "Press Start 2P", sans-serif;
+    color: #7A9E7E;
+    text-shadow: 4px 4px 0px #001A23;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+.main-subtitle-1 {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 20px;
+    color: #E8F1F2;
+    text-shadow: 4px 4px 0px #001A23;
+    text-align: center;
+}
+
+.navigation-1 {
+    display: inline-block;
+    padding-top: 10px;
 }
