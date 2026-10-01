@@ -11,6 +11,14 @@ const ProjectsSection: React.FC = () => {
 
     const projects = [
         {
+            title: "TransferTool",
+            subtitle: "Out 2026",
+            srcImg: "/src/assets/images/logo-transfertool.png",
+            technologies: "Technologies: .NET, React Native, Playwright (RPA), SQLite",
+            websiteURL: "https://vitorrosadev.github.io/transfertool/",
+            codeURL: "https://github.com/VitorRosaDev/TransferToolReleases",
+        },
+        {
             title: "App Expert Oppo",
             subtitle: "Dec 2024 - Dec 2025",
             srcImg: "/src/assets/images/smartphone.png",
