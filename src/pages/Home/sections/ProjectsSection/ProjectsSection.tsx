@@ -1,6 +1,14 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material";
 import ProjectCard, { type ProjectCardProps } from "../../../../components/ProjectCard/ProjectCard";
 import AnimationComponent from "../../../../components/AnimationComponnent/AnimationComponnent";
+import logoTransfertool from "../../../../assets/images/logo-transfertool.png";
+import smartphone from "../../../../assets/images/smartphone.png";
+import turismo from "../../../../assets/images/turismo.png";
+import chapeu from "../../../../assets/images/chapeu.png";
+import logoLeitura from "../../../../assets/images/logo-leitura.png";
+import logoXdevs from "../../../../assets/images/logo-xdevs.png";
+import logoDragao from "../../../../assets/images/logo-dragao.png";
+import logoAndroid from "../../../../assets/images/logo-android.png";
 
 const ProjectsSection: React.FC = () => {
 
@@ -13,7 +21,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "TransferTool",
             subtitle: "Out 2026",
-            srcImg: "/src/assets/images/logo-transfertool.png",
+            srcImg: logoTransfertool,
             technologies: "Technologies: .NET, React Native, Playwright (RPA), SQLite",
             websiteURL: "https://vitorrosadev.github.io/transfertool/",
             codeURL: "https://github.com/VitorRosaDev/TransferToolReleases",
@@ -21,7 +29,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "App Expert Oppo",
             subtitle: "Dec 2024 - Dec 2025",
-            srcImg: "/src/assets/images/smartphone.png",
+            srcImg: smartphone,
             /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
             technologies: "Technologies: Ionic, Angular, Capacitor, HTML, CSS",
             websiteURL: "https://onedrive.live.com/?id=5AA5356BDE13B7C5%21s85e8c38dfdf54cc986e6e2c5857b14f8&cid=5AA5356BDE13B7C5&redeem=aHR0cHM6Ly8xZHJ2Lm1zL2YvYy81YWE1MzU2YmRlMTNiN2M1L0VvM0Q2SVgxX2NsTWh1Yml4WVY3RlBnQkpOQzVaVm9NYW1TdVpOaWRwNmFiYmc%5FZT1Na1hORkY",
@@ -30,7 +38,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Turismo Alvorada",
             subtitle: "Ago 2024",
-            srcImg: "/src/assets/images/turismo.png",
+            srcImg: turismo,
             /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
             technologies: "Technologies: Ionic, Angular, Capacitor, HTML, CSS",
             websiteURL: "https://github.com/VitorRosaDev/passeio-alvorada-app",
@@ -39,7 +47,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Carreira Dev",
             subtitle: "Set 2024",
-            srcImg: "/src/assets/images/chapeu.png",
+            srcImg: chapeu,
             /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
             technologies: "Technologies: JavaScript, HTML, CSS",
             websiteURL: "https://vitorrosadev.github.io/imersao-alura-gemini/",
@@ -48,7 +56,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Cordel Moderno",
             subtitle: "Ago 2024",
-            srcImg: "/src/assets/images/logo-leitura.png",
+            srcImg: logoLeitura,
             /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
             technologies: "Technologies: JavaScript, HTML, CSS",
             websiteURL: "https://vitorrosadev.github.io/projeto-cordel/",
@@ -57,7 +65,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "X-Devs",
             subtitle: "Jun 2024",
-            srcImg: "/src/assets/images/logo-xdevs.png",
+            srcImg: logoXdevs,
             /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
             technologies: "Technologies: JavaScript, HTML, CSS",
             websiteURL: "https://vitorrosadev.github.io/x-devs-project/",
@@ -66,7 +74,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Dragões",
             subtitle: "Ago 2024",
-            srcImg: "/src/assets/images/logo-dragao.png",
+            srcImg: logoDragao,
             /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
             technologies: "Technologies: JavaScript, HTML, CSS",
             websiteURL: "https://vitorrosadev.github.io/casa-do-dragao/",
@@ -75,7 +83,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Android",
             subtitle: "Ago 2024",
-            srcImg: "/src/assets/images/logo-android.png",
+            srcImg: logoAndroid,
             /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
             technologies: "Technologies: JavaScript, HTML, CSS",
             websiteURL: "https://vitorrosadev.github.io/exercicio-android/",
