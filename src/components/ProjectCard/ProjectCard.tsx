@@ -5,7 +5,7 @@ export interface ProjectCardProps {
     title: string;
     subtitle: string;
     srcImg: string;
-    description: string
+    //description: string
     technologies: string
     websiteURL: string;
     codeURL: string;
@@ -15,7 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     title,
     subtitle,
     srcImg,
-    description,
+    //description,
     technologies,
     websiteURL,
     codeURL
@@ -51,9 +51,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 {subtitle}
             </Typography>
             <StyledImg src={srcImg} />
+            {/* 
             <Typography>
                 {description}
-            </Typography>
+            </Typography> 
+            */}
             <Typography fontWeight={600} pt={2}>
                 {technologies}
             </Typography>
