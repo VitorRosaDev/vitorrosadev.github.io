@@ -11,6 +11,24 @@ const ProjectsSection: React.FC = () => {
 
     const projects = [
         {
+            title: "App Expert Oppo",
+            subtitle: "Dec 2024 - Dec 2025",
+            srcImg: "/src/assets/images/smartphone.png",
+            /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
+            technologies: "Technologies: Ionic, Angular, Capacitor, HTML, CSS",
+            websiteURL: "https://onedrive.live.com/?id=5AA5356BDE13B7C5%21s85e8c38dfdf54cc986e6e2c5857b14f8&cid=5AA5356BDE13B7C5&redeem=aHR0cHM6Ly8xZHJ2Lm1zL2YvYy81YWE1MzU2YmRlMTNiN2M1L0VvM0Q2SVgxX2NsTWh1Yml4WVY3RlBnQkpOQzVaVm9NYW1TdVpOaWRwNmFiYmc%5FZT1Na1hORkY",
+            codeURL: "https://onedrive.live.com/?id=5AA5356BDE13B7C5%21s85e8c38dfdf54cc986e6e2c5857b14f8&cid=5AA5356BDE13B7C5&redeem=aHR0cHM6Ly8xZHJ2Lm1zL2YvYy81YWE1MzU2YmRlMTNiN2M1L0VvM0Q2SVgxX2NsTWh1Yml4WVY3RlBnQkpOQzVaVm9NYW1TdVpOaWRwNmFiYmc%5FZT1Na1hORkY",
+        },
+        {
+            title: "Turismo Alvorada",
+            subtitle: "Ago 2024",
+            srcImg: "/src/assets/images/turismo.png",
+            /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
+            technologies: "Technologies: Ionic, Angular, Capacitor, HTML, CSS",
+            websiteURL: "https://github.com/VitorRosaDev/passeio-alvorada-app",
+            codeURL: "https://github.com/VitorRosaDev/passeio-alvorada-app",
+        },
+        {
             title: "Carreira Dev",
             subtitle: "Set 2024",
             srcImg: "/src/assets/images/chapeu.png",
@@ -28,6 +46,34 @@ const ProjectsSection: React.FC = () => {
             websiteURL: "https://vitorrosadev.github.io/projeto-cordel/",
             codeURL: "https://github.com/VitorRosaDev/projeto-cordel",
         },
+        {
+            title: "X-Devs",
+            subtitle: "Jun 2024",
+            srcImg: "/src/assets/images/logo-xdevs.png",
+            /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
+            technologies: "Technologies: JavaScript, HTML, CSS",
+            websiteURL: "https://vitorrosadev.github.io/x-devs-project/",
+            codeURL: "https://github.com/VitorRosaDev/x-devs-project",
+        },
+        {
+            title: "Dragões",
+            subtitle: "Ago 2024",
+            srcImg: "/src/assets/images/logo-dragao.png",
+            /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
+            technologies: "Technologies: JavaScript, HTML, CSS",
+            websiteURL: "https://vitorrosadev.github.io/casa-do-dragao/",
+            codeURL: "https://github.com/VitorRosaDev/casa-do-dragao",
+        },
+        {
+            title: "Android",
+            subtitle: "Ago 2024",
+            srcImg: "/src/assets/images/logo-android.png",
+            /* description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.", */
+            technologies: "Technologies: JavaScript, HTML, CSS",
+            websiteURL: "https://vitorrosadev.github.io/exercicio-android/",
+            codeURL: "https://github.com/VitorRosaDev/exercicio-android",
+        },
+
     ]
 
     return (
