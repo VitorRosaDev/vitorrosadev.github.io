@@ -15,7 +15,7 @@ const AboutSection: React.FC = () => {
     }));
 
     const skillsSet = [
-        "Javascript", "Typescript", "React", "Next", "Git", "HTML", "CSS", "Cypress", "AWS", "GCP", "Material UI", "Figma"
+         "HTML", "CSS", "Javascript", "Typescript", "React", "Angular", "Ionic", "Material UI", "Bootstrap", "Git", "Java", "Python"
     ]
 
     return (
@@ -29,9 +29,9 @@ const AboutSection: React.FC = () => {
                         <AnimationComponent moveDirection="right">
                             <StyledCard variant="outlined">
                                 <WorkspacePremiumIcon />
-                                <Typography textAlign="center" fontWeight={600}>Experience</Typography>
-                                <Typography textAlign="center">1+ years</Typography>
-                                <Typography textAlign="center">Frontend Development</Typography>
+                                <Typography textAlign="center" fontWeight={600}>Experiência</Typography>
+                                <Typography textAlign="center">Mobile Development for Android</Typography>
+                                <Typography textAlign="center" fontWeight={600}>Free Lancer</Typography>
                             </StyledCard>
                         </AnimationComponent>
                     </Grid>
@@ -39,9 +39,9 @@ const AboutSection: React.FC = () => {
                         <AnimationComponent moveDirection="left">
                             <StyledCard variant="outlined">
                                 <SchoolIcon />
-                                <Typography textAlign="center" fontWeight={600}>Education</Typography>
-                                <Typography textAlign="center">Bachelors Degree</Typography>
-                                <Typography textAlign="center">Electrical Engineer</Typography>
+                                <Typography textAlign="center" fontWeight={600}>Educação</Typography>
+                                <Typography textAlign="center">Análise e desenvolvimento de Sistemas</Typography>
+                                <Typography textAlign="center" fontWeight={600}>UNISINOS</Typography>
                             </StyledCard>
                         </AnimationComponent>
 
@@ -49,17 +49,7 @@ const AboutSection: React.FC = () => {
                 </Grid>
                 <Box pb={1}>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras porta semper velit vel rutrum.
-                        Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris.
-                        Phasellus a ultrices elit.
-                        Curabitur ut diam eu orci auctor pretium.
-                        Nullam ultricies erat quam, eget porta velit vehicula sit amet.
-                        Nullam sodales iaculis metus, sed vestibulum nisl vulputate at.
-                        Integer in pulvinar libero.
-                        Donec ornare est quis tortor varius efficitur.
-                        Maecenas sed erat quis felis facilisis pellentesque.
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id felis convallis, luctus lorem eget, varius dolor.
+                        Minha trajetória inclui experiência significativa nas áreas comercial e de suporte técnico em grandes corporações. Nelas, aprimorei minhas habilidades de relacionamento interpessoal e capacidade de solução de problemas, sempre com foco em alcançar e superar resultados. Autodidata por natureza, estou em processo de transição de carreira para o desenvolvimento frontend, onde já atuo como freelancer, aplicando frameworks web e mobile. 
                     </Typography>
                 </Box>
                 <hr />
